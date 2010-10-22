@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="##ENCODING##"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0"
+    xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    packagerversion="1.4.1" version="2.0"
+    xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+    
+    <name>sfGoogleLoginPlugin</name>
+    <channel>plugins.symfony-project.org</channel>
+    <summary>Google Login for Symfony</summary>
+    <description>The sfGoogleLoginPlugin offers login via Google accounts using OpenID for Symfony projects.</description>
+    <lead>
+        <name>Sebastian Herbermann</name>
+        <user>acetous</user>
+        <email>sebastian.herbermann@googlemail.com</email>
+        <active>yes</active>
+    </lead>
+    
+    <date>##CURRENT_DATE##</date>
+    <version>
+        <release>##PLUGIN_VERSION##</release>
+        <api>1.1.0</api>
+    </version>
+    <stability>
+        <release>##STABILITY##</release>
+        <api>stable</api>
+    </stability>
+    
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <notes>-</notes>
+    
+    <contents>
+        ##CONTENTS##
+    </contents>
+    
+    <dependencies>
+        <required>
+            <php>
+                <min>5.0.0</min>
+            </php>
+            <pearinstaller>
+                <min>1.4.1</min>
+            </pearinstaller>
+            <package>
+                <name>symfony</name>
+                <channel>pear.symfony-project.com</channel>
+                <min>1.2.0</min>
+                <max>1.5.0</max>
+                <exclude>1.5.0</exclude>
+            </package>
+        </required>
+    </dependencies>
+    
+    <phprelease></phprelease>
+    
+    <changelog>
+        <release>
+            <version>
+                <release>1.0.5</release>
+                <api>1.1.0</api>
+            </version>
+            <stability>
+                <release>stable</release>
+                <api>stable</api>
+            </stability>
+            <license uri="http://www.symfony-project.org/license">MIT license</license>
+            <date>2010-02-09</date>
+            <license>MIT</license>
+            <notes>
+              * fix login popup not closing on success
+            </notes>
+        </release>
+    </changelog>
+    
+</package>

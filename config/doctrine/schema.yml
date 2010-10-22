@@ -1,0 +1,6 @@
+GoogleAccount:
+    actAs:
+        Timestampable: ~
+    columns:
+        user_token: { type: string(255), notnull: true, unique: true }
+        last_login: { type: timestamp, notnull: true }
