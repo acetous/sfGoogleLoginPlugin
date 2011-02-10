@@ -25,9 +25,8 @@ User Experience
 More Information
 ----------------
 
-* Project info: https://launchpad.net/sfgoogleloginplugin
-* Questions and FAQ: https://answers.launchpad.net/sfgoogleloginplugin
-* Bugs: https://bugs.launchpad.net/sfgoogleloginplugin
+* Project info: https://github.com/acetous/sfGoogleLoginPlugin
+* Bugs: https://github.com/acetous/sfGoogleLoginPlugin/issues
 
 Contribute
 ----------
